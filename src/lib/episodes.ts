@@ -20,18 +20,7 @@ export function filterEpisodes(
     if (!options.activeSlugs.has(episode.seriesSlug)) return false;
     if (!query) return true;
 
-    const haystack = [
-      String(episode.order),
-      episode.series,
-      episode.episodeCode,
-      episode.title,
-      episode.airDate ?? "",
-      episode.crossover ?? "",
-      episode.notes ?? "",
-      episode.cameos.join(" "),
-    ]
-      .join(" ")
-      .toLowerCase();
+    const haystack = [episode.title, episode.episodeCode].join(" ").toLowerCase();
 
     return haystack.includes(query);
   });

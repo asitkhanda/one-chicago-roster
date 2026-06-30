@@ -7,7 +7,7 @@ type JumpToInputProps = {
 export function JumpToInput({ onJump }: JumpToInputProps) {
   return (
     <form
-      className="jump-form"
+      className="jump-form toolbar-field"
       onSubmit={(event) => {
         event.preventDefault();
         const form = event.currentTarget;
@@ -16,20 +16,23 @@ export function JumpToInput({ onJump }: JumpToInputProps) {
         if (value > 0) onJump(value);
       }}
     >
-      <label htmlFor="jump-to" className="sr-only">
-        Jump to episode number
+      <label htmlFor="jump-to" className="toolbar-label">
+        Go to Series Number
       </label>
-      <input
-        id="jump-to"
-        name="jump"
-        type="number"
-        min={1}
-        placeholder="Go to #"
-        className="jump-input"
-      />
-      <button type="submit" className="toolbar-button">
-        Go
-      </button>
+      <div className="jump-row">
+        <input
+          id="jump-to"
+          name="jump"
+          type="number"
+          min={1}
+          placeholder="Series number"
+          className="jump-input"
+          aria-label="Go to series number"
+        />
+        <button type="submit" className="toolbar-button jump-submit">
+          Go
+        </button>
+      </div>
     </form>
   );
 }
