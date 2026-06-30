@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Barlow_Condensed, DM_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import { ThemeProvider } from "@/components/ThemeProvider";
 
@@ -45,6 +46,7 @@ export default function RootLayout({
       </head>
       <body className={`${bodyFont.variable} ${displayFont.variable} antialiased`}>
         <ThemeProvider>{children}</ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
