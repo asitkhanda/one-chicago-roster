@@ -140,7 +140,6 @@ export function EpisodeTable({ dataset }: EpisodeTableProps) {
             <span>Episode</span>
             <span>Name</span>
             <span>Air Date</span>
-            <span>Notes</span>
             <span>Watched</span>
           </div>
         )}
@@ -211,9 +210,6 @@ function EpisodeRow({
 }: EpisodeRowProps) {
   const slug = episode.seriesSlug as SeriesSlug;
   const rowStyle = seriesRowStyle(slug, colorsEnabled, darkMode);
-  const notes = [episode.crossover, episode.notes, episode.cameos.length ? episode.cameos.join(", ") : null]
-    .filter(Boolean)
-    .join(" · ");
 
   if (mobile) {
     return (
@@ -235,7 +231,6 @@ function EpisodeRow({
           {episode.episodeCode} · {episode.title}
         </h3>
         <p className="card-meta">{formatAirDate(episode.airDate)}</p>
-        {notes && <p className="card-notes">{notes}</p>}
       </article>
     );
   }
@@ -252,7 +247,6 @@ function EpisodeRow({
       <span className="code-cell">{episode.episodeCode}</span>
       <span className="title-cell">{episode.title}</span>
       <span className="date-cell">{formatAirDate(episode.airDate)}</span>
-      <span className="notes-cell">{notes || "—"}</span>
       <label className="watch-check compact">
         <input type="checkbox" checked={watched} onChange={onToggleWatched} aria-label={`Mark ${episode.title} watched`} />
       </label>

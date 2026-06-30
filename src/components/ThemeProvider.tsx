@@ -46,22 +46,33 @@ function readNewestFirst(): boolean {
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>(readTheme);
-  const [colorsEnabled, setColorsEnabled] = useState(readColorsEnabled);
-  const [newestFirst, setNewestFirst] = useState(readNewestFirst);
+  const [theme, setTheme] = useState<Theme>("light");
+  const [colorsEnabled, setColorsEnabled] = useState(true);
+  const [newestFirst, setNewestFirst] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
+    setTheme(readTheme());
+    setColorsEnabled(readColorsEnabled());
+    setNewestFirst(readNewestFirst());
+    setHydrated(true);
+  }, []);
+
+  useEffect(() => {
+    if (!hydrated) return;
     document.documentElement.dataset.theme = theme;
     localStorage.setItem(THEME_KEY, theme);
-  }, [theme]);
+  }, [theme, hydrated]);
 
   useEffect(() => {
+    if (!hydrated) return;
     localStorage.setItem(COLORS_KEY, String(colorsEnabled));
-  }, [colorsEnabled]);
+  }, [colorsEnabled, hydrated]);
 
   useEffect(() => {
+    if (!hydrated) return;
     localStorage.setItem(SORT_KEY, newestFirst ? "newest" : "oldest");
-  }, [newestFirst]);
+  }, [newestFirst, hydrated]);
 
   const toggleTheme = useCallback(() => {
     setTheme((current) => (current === "dark" ? "light" : "dark"));

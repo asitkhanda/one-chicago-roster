@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "sync": "node scripts/sync-from-sheet.mjs",
+    "enrich:air-dates": "node scripts/enrich-air-dates.mjs",
     "build:data": "npm run sync"
   },
   "dependencies": {

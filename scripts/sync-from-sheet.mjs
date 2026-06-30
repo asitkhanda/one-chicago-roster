@@ -13,6 +13,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 import * as XLSX from "xlsx";
 
+import { enrichAirDates } from "./air-dates.mjs";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const OUTPUT_PATH = path.join(ROOT, "data", "episodes.json");
@@ -304,7 +306,11 @@ async function main() {
     );
   }
 
-  writeDataset(episodes, sheetId);
+  console.log("Enriching air dates from TVmaze…");
+  const { episodes: enriched, filled, unmatched } = await enrichAirDates(episodes);
+  console.log(`  ${filled} air dates set from TVmaze (${unmatched} unmatched).`);
+
+  writeDataset(enriched, sheetId);
 }
 
 main().catch((error) => {

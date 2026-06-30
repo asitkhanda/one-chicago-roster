@@ -224,7 +224,7 @@ a {
 .table-header,
 .episode-row {
   display: grid;
-  grid-template-columns: 4rem 9rem 6rem minmax(12rem, 1.4fr) 8rem minmax(10rem, 1fr) 4rem;
+  grid-template-columns: 4rem 9rem 6rem minmax(12rem, 1.6fr) 9rem 4rem;
   gap: 0.75rem;
   align-items: center;
   padding: 0.75rem 1rem;
@@ -276,18 +276,12 @@ a {
 
 .series-cell,
 .code-cell,
-.date-cell,
-.notes-cell {
+.date-cell {
   font-size: 0.92rem;
 }
 
 .title-cell {
   font-weight: 600;
-}
-
-.notes-cell {
-  color: var(--muted);
-  font-size: 0.85rem;
 }
 
 .watch-check {
@@ -332,8 +326,7 @@ a {
   font-size: 0.85rem;
 }
 
-.card-meta,
-.card-notes {
+.card-meta {
   margin: 0.2rem 0 0;
   color: var(--muted);
   font-size: 0.88rem;
