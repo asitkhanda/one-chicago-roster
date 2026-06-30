@@ -287,7 +287,10 @@ async function main() {
   const sheetId = process.env.SHEET_ID ?? DEFAULT_SHEET_ID;
   let episodes = [];
 
-  if (process.env.GOOGLE_SERVICE_ACCOUNT_JSON) {
+  const credentialsJson = process.env.GOOGLE_SERVICE_ACCOUNT_JSON?.trim();
+
+  if (credentialsJson) {
+    process.env.GOOGLE_SERVICE_ACCOUNT_JSON = credentialsJson;
     console.log("Syncing via Google Sheets API…");
     episodes = await fetchViaGoogleApi(sheetId);
   } else {
