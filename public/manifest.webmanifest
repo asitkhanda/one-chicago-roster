@@ -1,0 +1,17 @@
+{
+  "name": "One Chicago Roster",
+  "short_name": "Chicago Roster",
+  "description": "In-universe watch order for the One Chicago universe",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ef",
+  "theme_color": "#E85D04",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
