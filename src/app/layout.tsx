@@ -18,9 +18,23 @@ const displayFont = Barlow_Condensed({
   weight: ["600", "700"],
 });
 
+const productionSiteUrl = "https://onechicago.vercel.app";
+
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+  (process.env.VERCEL_ENV === "production"
+    ? productionSiteUrl
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000");
+
+const ogImage = {
+  url: "/og-image.jpg",
+  width: 1200,
+  height: 1800,
+  alt: "One Chicago Collection",
+  type: "image/jpeg",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -31,22 +45,18 @@ export const metadata: Metadata = {
     title: "One Chicago Roster",
     description:
       "Watch every One Chicago episode in the correct in-universe order, with filters, search, and progress tracking.",
+    url: siteUrl,
+    siteName: "One Chicago Roster",
+    locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1500,
-        height: 2250,
-        alt: "One Chicago Collection",
-      },
-    ],
+    images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
     title: "One Chicago Roster",
     description:
       "Watch every One Chicago episode in the correct in-universe order, with filters, search, and progress tracking.",
-    images: ["/og-image.png"],
+    images: [ogImage.url],
   },
   icons: {
     icon: "/icon.svg",
