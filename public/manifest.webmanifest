@@ -4,8 +4,8 @@
   "description": "In-universe watch order for the One Chicago universe",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f7f4ef",
-  "theme_color": "#E85D04",
+  "background_color": "#101418",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "/icon.svg",

@@ -29,10 +29,10 @@ const COLORS_KEY = "one-chicago-roster-colors";
 const SORT_KEY = "one-chicago-roster-sort";
 
 function readTheme(): Theme {
-  if (typeof window === "undefined") return "light";
+  if (typeof window === "undefined") return "dark";
   const stored = localStorage.getItem(THEME_KEY);
   if (stored === "light" || stored === "dark") return stored;
-  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  return "dark";
 }
 
 function readColorsEnabled(): boolean {
@@ -46,7 +46,7 @@ function readNewestFirst(): boolean {
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("dark");
   const [colorsEnabled, setColorsEnabled] = useState(true);
   const [newestFirst, setNewestFirst] = useState(false);
   const [hydrated, setHydrated] = useState(false);

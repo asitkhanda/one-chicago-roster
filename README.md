@@ -1,75 +1,159 @@
 # One Chicago Roster
 
-A fan-built website that presents the **One Chicago in-universe watch order** in a clean, [arrowverse.info](https://arrowverse.info/)-inspired layout.
+**Welcome!** Whether you are starting your first binge through the One Chicago universe or picking up where you left off, this site is here to help you watch every episode in the right in-universe order.
 
-Track 800+ episodes across Chicago Fire, P.D., Med, Justice, and crossover series. Filter by show, search crossovers and cameos, jump to any episode number, and save watch progress locally in your browser.
+One Chicago Roster is a fan-built companion for *Chicago Fire*, *Chicago P.D.*, *Chicago Med*, *Chicago Justice*, and crossover episodes. Filter by show, search titles and crossovers, jump to any episode number, and track your progress — all in your browser.
 
-## Data source and attribution
+> **This is unofficial fan work.** One Chicago Roster is not affiliated with, endorsed by, or connected to NBCUniversal, Wolf Entertainment, or any of the shows it references. All trademarks belong to their respective owners.
 
-Episode ordering comes from the community-maintained spreadsheet by **[Game Over Gallery / petitcartonvert](https://petitcartonvert.tumblr.com/post/158289265736/chicago-franchise-episodes-timeline)**:
+---
 
-- [Community Google Sheet](https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit)
+## What you can do here
 
-UI inspiration: [arrowverse.info](https://arrowverse.info/) (data is **not** sourced from Arrowverse).
+- Browse **800+ episodes** in community-curated in-universe order
+- Filter by show with color-coded series badges
+- Search episode titles and crossover notes
+- Jump directly to any episode number
+- Mark episodes as watched — progress is saved locally in your browser
+- Sort newest-first, toggle dark mode, and adjust color settings
 
-**Disclaimer:** One Chicago Roster is unofficial fan work and is **not affiliated** with NBCUniversal or Wolf Entertainment. Episode ordering credit belongs to the original spreadsheet maintainers.
+New to the universe? Start at episode 1 and follow the roster. Already deep into a rewatch? Use the filters and jump tool to find your place.
 
-## Features
+---
 
-- Virtualized episode table (800+ rows)
-- Series filter pills with show color coding
-- Search, newest-first sort, dark mode, disable-colors toggle
-- Jump to episode number
-- Local watch progress (localStorage)
-- Daily data sync via GitHub Actions + Google Sheets API
+## Credits & data sources
+
+This site would not exist without the work of the One Chicago fan community.
+
+| What | Who / where |
+|---|---|
+| **Episode watch order** | [Game Over Gallery / petitcartonvert](https://petitcartonvert.tumblr.com/post/158289265736/chicago-franchise-episodes-timeline) |
+| **Episode spreadsheet** | [Community Google Sheet](https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit) |
+| **Air dates** | [TVmaze](https://www.tvmaze.com/) (used to backfill missing dates during sync) |
+| **UI inspiration** | [arrowverse.info](https://arrowverse.info/) — layout only; no episode data is taken from Arrowverse |
+
+Episode ordering, timeline placement, and spreadsheet corrections are maintained by **Game Over Gallery / petitcartonvert** and the broader community that contributes to the sheet. This project simply presents that data in a fast, searchable interface.
+
+---
+
+## Contributing
+
+There are two ways to help, depending on what you want to improve.
+
+### Episode data, timeline, or ordering corrections
+
+Those belong with the original maintainers, not in a GitHub issue on this repo.
+
+1. Open the [community Google Sheet](https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit)
+2. Leave a comment on the relevant row, or reach out via the [Game Over Gallery timeline post](https://petitcartonvert.tumblr.com/post/158289265736/chicago-franchise-episodes-timeline)
+
+Once the sheet is updated, this site picks up changes automatically through a daily sync.
+
+### Website code, design, or features
+
+Contributions to the site itself are welcome via GitHub.
+
+1. **Fork** this repository
+2. **Create a branch** for your change
+3. **Run the project locally** (see below) and test your changes
+4. **Open a pull request** with a clear description of what you changed and why
+
+Good first contributions include UI polish, accessibility improvements, mobile layout fixes, documentation updates, and bug fixes. If you are unsure whether an idea fits, open an issue first to discuss it.
+
+Please do not open PRs that change episode order directly in `data/episodes.json` — that file is generated from the community spreadsheet and will be overwritten on the next sync.
+
+---
 
 ## Local development
 
+### Prerequisites
+
+- Node.js 22+
+- npm
+
+### Quick start
+
 ```bash
+git clone https://github.com/asitkhanda/one-chicago-roster.git
+cd one-chicago-roster
 npm install
-npm run sync      # generates data/episodes.json
+npm run sync      # generates data/episodes.json from the spreadsheet
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
 
-### Sync modes
+### Syncing episode data
 
-1. **With credentials (production / CI):** set `GOOGLE_SERVICE_ACCOUNT_JSON` and `SHEET_ID`
-2. **Without credentials (local fallback):** downloads the public XLSX export automatically
+The dataset in `data/episodes.json` is generated by `scripts/sync-from-sheet.mjs` and committed to the repo. A GitHub Actions workflow runs this daily.
 
-## Google Sheets setup (Option A)
+**With Google credentials (production / CI):**
 
-1. Create a Google Cloud project and enable **Google Sheets API**
-2. Create a **service account** and download the JSON key
-3. **Phase 1:** Share your personal copy of the spreadsheet with the service account email (Viewer)
-4. **Phase 2:** After permission from petitcartonvert, update `SHEET_ID` to the community sheet
+```bash
+export GOOGLE_SERVICE_ACCOUNT_JSON='…'   # full service account JSON
+export SHEET_ID='…'                      # spreadsheet ID
+npm run sync
+```
 
-Add GitHub Actions secrets:
+**Without credentials (local fallback):**
 
-| Secret | Description |
+`npm run sync` downloads the public XLSX export of the sheet automatically.
+
+After syncing, air dates are enriched from TVmaze where missing.
+
+### Other scripts
+
+| Command | Description |
 |---|---|
-| `GOOGLE_SERVICE_ACCOUNT_JSON` | Full service account JSON |
-| `SHEET_ID` | Spreadsheet ID (dev copy first, community sheet later) |
+| `npm run dev` | Start the dev server |
+| `npm run build` | Production build |
+| `npm run sync` | Sync episodes from Google Sheets |
+| `npm run enrich:air-dates` | Backfill air dates from TVmaze |
+| `npm run lint` | Run ESLint |
 
-## Deploy on Vercel
+### Project structure
+
+```
+data/episodes.json            Generated episode dataset (committed, do not edit by hand)
+scripts/sync-from-sheet.mjs   Google Sheets / XLSX sync
+scripts/enrich-air-dates.mjs  TVmaze air-date backfill
+src/app/                      Next.js App Router pages
+src/components/               UI components
+src/lib/                      Types, helpers, colors, progress
+.github/workflows/            Daily data sync workflow
+public/                       Static assets (icons, series logos, OG image)
+```
+
+---
+
+## Deploying
+
+The site is designed to deploy on [Vercel](https://vercel.com):
 
 1. Push this repo to GitHub
 2. Import the project at [vercel.com/new](https://vercel.com/new)
-3. No runtime env vars required — episode data ships in `data/episodes.json`
+3. No runtime environment variables are required — episode data ships in `data/episodes.json`
 
 Vercel redeploys automatically when the sync workflow commits updated data.
 
-## Project structure
+### GitHub Actions secrets (for automated sync)
 
-```
-data/episodes.json          Generated episode dataset (committed)
-scripts/sync-from-sheet.mjs Google Sheets / XLSX sync script
-src/app/                    Next.js App Router pages
-src/components/             UI components
-src/lib/                    Types, helpers, colors, progress
-.github/workflows/          Daily sync workflow
-```
+| Secret | Description |
+|---|---|
+| `GOOGLE_SERVICE_ACCOUNT_JSON` | Full service account JSON with read access to the sheet |
+| `SHEET_ID` | Spreadsheet ID |
+
+---
+
+## Disclaimer
+
+One Chicago Roster is a **fan project** created out of appreciation for the One Chicago franchise. It is **not officially associated** with NBCUniversal, Wolf Entertainment, Dick Wolf, or any cast or crew.
+
+- Episode ordering credit belongs to [Game Over Gallery / petitcartonvert](https://petitcartonvert.tumblr.com/post/158289265736/chicago-franchise-episodes-timeline) and the community spreadsheet contributors.
+- Show names, characters, and related marks are the property of their respective owners.
+- Site code is released under the [MIT License](LICENSE). Episode ordering data remains the work of its original maintainers.
+
+---
 
 ## License
 
