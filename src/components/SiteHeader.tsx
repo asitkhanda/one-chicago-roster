@@ -21,7 +21,7 @@ export function SiteHeader({ episodeCount, syncedAt }: SiteHeaderProps) {
       <div className="site-header-brand" aria-hidden="true">
         <Image
           src="/images/header/one-chicago-logo.png"
-          alt=""
+          alt="One Chicago Roster"
           width={285}
           height={171}
           className="site-header-logo"
@@ -32,7 +32,7 @@ export function SiteHeader({ episodeCount, syncedAt }: SiteHeaderProps) {
       <div className="site-header-collage" aria-hidden="true">
         <Image
           src="/images/header/one-chicago-collage.png"
-          alt=""
+          alt="One Chicago franchise cast collage"
           fill
           sizes="205px"
           className="site-header-collage-image"
@@ -53,6 +53,7 @@ export function SiteHeader({ episodeCount, syncedAt }: SiteHeaderProps) {
               width={16}
               height={16}
               className="site-header-calendar"
+              aria-hidden="true"
             />
           </div>
         </div>

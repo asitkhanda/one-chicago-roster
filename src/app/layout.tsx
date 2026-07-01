@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 
 import { AgentationToolbar } from "@/components/AgentationToolbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { getSiteUrl } from "@/lib/site-url";
 
 import "./globals.css";
 
@@ -18,15 +19,7 @@ const displayFont = Barlow_Condensed({
   weight: ["600", "700"],
 });
 
-const productionSiteUrl = "https://onechicago.vercel.app";
-
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_ENV === "production"
-    ? productionSiteUrl
-    : process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000");
+const siteUrl = getSiteUrl();
 
 const ogImage = {
   url: "/og-image.jpg",
@@ -38,9 +31,34 @@ const ogImage = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "One Chicago Roster — In-Universe Watch Order",
+  title: {
+    default: "One Chicago Roster — In-Universe Watch Order",
+    template: "%s | One Chicago Roster",
+  },
   description:
     "The definitive in-universe watch order for Chicago Fire, P.D., Med, Justice, and crossover episodes. Track your progress through 800+ episodes.",
+  keywords: [
+    "One Chicago watch order",
+    "Chicago Fire watch order",
+    "Chicago PD watch order",
+    "Chicago Med watch order",
+    "One Chicago chronological order",
+    "One Chicago crossover episodes",
+    "in-universe watch order",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+    },
+  },
   openGraph: {
     title: "One Chicago Roster",
     description:
