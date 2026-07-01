@@ -7,18 +7,27 @@ type ProgressBarProps = {
 };
 
 export function ProgressBar({ watchedCount, totalCount, resumeOrder }: ProgressBarProps) {
-  const percent = totalCount > 0 ? Math.round((watchedCount / totalCount) * 100) : 0;
+  const percentExact = totalCount > 0 ? (watchedCount / totalCount) * 100 : 0;
+  const percentLabel = Math.round(percentExact);
+  const fillWidth = watchedCount > 0 ? Math.max(percentExact, 0.5) : 0;
 
   return (
     <div className="progress-wrap">
+      <div
+        className="progress-track"
+        role="progressbar"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={percentLabel}
+        aria-label={`${watchedCount} of ${totalCount} episodes watched`}
+      >
+        <div className="progress-fill" style={{ width: `${fillWidth}%` }} />
+      </div>
       <div className="progress-meta">
         <span>
-          {watchedCount} / {totalCount} watched ({percent}%)
+          {watchedCount} / {totalCount} watched ({percentLabel}%)
         </span>
-        {resumeOrder != null && <span>Resume at #{resumeOrder}</span>}
-      </div>
-      <div className="progress-track" aria-hidden="true">
-        <div className="progress-fill" style={{ width: `${percent}%` }} />
+        {resumeOrder != null && <span>Currently at #{resumeOrder}</span>}
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ export default function AboutPage() {
 
   return (
     <div className="page-shell about-page">
-      <header className="site-header">
+      <header className="about-header">
         <div>
           <p className="eyebrow">About</p>
           <h1>One Chicago Roster</h1>

@@ -8,14 +8,14 @@ import {
   getResumeOrder,
   isWatched,
   loadProgress,
-  markVisibleWatched,
   saveProgress,
   toggleWatched,
 } from "@/lib/progress";
-import { seriesRowStyle, type SeriesSlug } from "@/lib/series-colors";
+import { seriesLabelStyle, seriesRowStyle, type SeriesSlug } from "@/lib/series-colors";
 import type { Episode, EpisodeDataset } from "@/lib/types";
 
 import { SiteFooter } from "./SiteFooter";
+import { SiteHeader } from "./SiteHeader";
 import { Toolbar } from "./Toolbar";
 import { useTheme } from "./ThemeProvider";
 
@@ -95,27 +95,9 @@ export function EpisodeTable({ dataset }: EpisodeTableProps) {
     });
   };
 
-  const handleMarkVisible = () => {
-    const orders = filtered.map((episode) => episode.order);
-    setProgress((current) => {
-      const next = markVisibleWatched(current, orders);
-      saveProgress(next);
-      return next;
-    });
-  };
-
   return (
     <div className="page-shell">
-      <header className="site-header">
-        <div>
-          <p className="eyebrow">One Chicago Universe</p>
-          <h1>One Chicago Roster</h1>
-          <p className="subtitle">
-            The in-universe watch order for Chicago Fire, P.D., Med, and crossovers.
-          </p>
-        </div>
-        <p className="episode-count">{dataset.episodeCount} episodes</p>
-      </header>
+      <SiteHeader episodeCount={dataset.episodeCount} syncedAt={dataset.syncedAt} />
 
       <Toolbar
         shows={dataset.shows}
@@ -129,7 +111,6 @@ export function EpisodeTable({ dataset }: EpisodeTableProps) {
         onSelectAll={() => setActiveSlugs(new Set(dataset.shows.map((show) => show.slug)))}
         onClearAll={() => setActiveSlugs(new Set())}
         onJump={scrollToOrder}
-        onMarkVisible={handleMarkVisible}
       />
 
       <div className="table-shell">
@@ -210,6 +191,7 @@ function EpisodeRow({
 }: EpisodeRowProps) {
   const slug = episode.seriesSlug as SeriesSlug;
   const rowStyle = seriesRowStyle(slug, colorsEnabled, darkMode);
+  const labelStyle = seriesLabelStyle(slug, colorsEnabled, darkMode);
 
   if (mobile) {
     return (
@@ -221,7 +203,9 @@ function EpisodeRow({
           <span className={`order-pill${episode.inUniverseVerified ? " verified" : ""}`}>
             #{episode.order}
           </span>
-          <span className="series-label">{episode.series}</span>
+          <span className="series-label" style={labelStyle}>
+            {episode.series}
+          </span>
           <label className="watch-check">
             <input type="checkbox" checked={watched} onChange={onToggleWatched} />
             Watched
@@ -243,7 +227,9 @@ function EpisodeRow({
       <span className={`order-cell${episode.inUniverseVerified ? " verified" : ""}`}>
         {episode.order}
       </span>
-      <span className="series-cell">{episode.series}</span>
+      <span className="series-cell" style={labelStyle}>
+        {episode.series}
+      </span>
       <span className="code-cell">{episode.episodeCode}</span>
       <span className="title-cell">{episode.title}</span>
       <span className="date-cell">{formatAirDate(episode.airDate)}</span>

@@ -3,15 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently -k -n next,agentation -c blue,green \"next dev\" \"npx -y agentation-mcp server\"",
+    "dev:next": "next dev",
+    "agentation:doctor": "npx agentation-mcp doctor",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "sync": "node scripts/sync-from-sheet.mjs",
+    "fix:logos": "node scripts/fix-series-logos.mjs",
     "enrich:air-dates": "node scripts/enrich-air-dates.mjs",
     "build:data": "npm run sync"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
     "@tanstack/react-virtual": "^3.14.5",
     "@vercel/analytics": "^2.0.1",
     "next": "16.2.9",
@@ -23,9 +27,12 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "agentation": "^3.0.2",
+    "concurrently": "^10.0.3",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "googleapis": "^173.0.0",
+    "sharp": "^0.35.3",
     "tailwindcss": "^4",
     "typescript": "^5",
     "xlsx": "^0.18.5"
