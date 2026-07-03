@@ -286,7 +286,7 @@ async function fetchViaGoogleApi(sheetId) {
 }
 
 async function main() {
-  const sheetId = process.env.SHEET_ID ?? DEFAULT_SHEET_ID;
+  const sheetId = process.env.SHEET_ID?.trim() || DEFAULT_SHEET_ID;
   let episodes = [];
 
   const credentialsJson = process.env.GOOGLE_SERVICE_ACCOUNT_JSON?.trim();
