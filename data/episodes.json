@@ -2,22 +2,22 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-08-21T06:44:03.967Z",
-  "episodeCount": 827,
+  "syncedAt": "2026-08-22T06:38:31.638Z",
+  "episodeCount": 833,
   "shows": [
     {
       "slug": "fire",
       "name": "Chicago Fire",
-      "count": 294,
+      "count": 296,
       "firstOrder": 1,
-      "lastOrder": 826
+      "lastOrder": 832
     },
     {
       "slug": "pd",
       "name": "Chicago P.D.",
-      "count": 264,
+      "count": 266,
       "firstOrder": 34,
-      "lastOrder": 827
+      "lastOrder": 833
     },
     {
       "slug": "svu",
@@ -29,9 +29,9 @@
     {
       "slug": "med",
       "name": "Chicago Med",
-      "count": 219,
+      "count": 221,
       "firstOrder": 125,
-      "lastOrder": 825
+      "lastOrder": 831
     },
     {
       "slug": "justice",
@@ -14228,6 +14228,96 @@
       "episodeCode": "S13E21",
       "title": "Born or Made",
       "airDate": "2026-05-13",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 828,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 12,
+      "episode": 1,
+      "episodeCode": "S12E01",
+      "title": "Untitled episode",
+      "airDate": "2026-10-07",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 829,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 15,
+      "episode": 1,
+      "episodeCode": "S15E01",
+      "title": "Untitled episode",
+      "airDate": "2026-10-07",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 830,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 14,
+      "episode": 1,
+      "episodeCode": "S14E01",
+      "title": "Untitled episode",
+      "airDate": "2026-10-07",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 831,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 12,
+      "episode": 2,
+      "episodeCode": "S12E02",
+      "title": "Untitled episode",
+      "airDate": "2026-10-14",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 832,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 15,
+      "episode": 2,
+      "episodeCode": "S15E02",
+      "title": "Untitled episode",
+      "airDate": "2026-10-14",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 833,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 14,
+      "episode": 2,
+      "episodeCode": "S14E02",
+      "title": "Untitled episode",
+      "airDate": "2026-10-14",
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
