@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-04T11:50:35.159Z",
+  "syncedAt": "2026-10-05T13:43:42.351Z",
   "episodeCount": 833,
   "shows": [
     {
@@ -13435,7 +13435,7 @@
       "cameos": [
         "Cindy"
       ],
-      "notes": "Same title as PD 5x18",
+      "notes": "Same title as PD 5x18, holloween",
       "sourceUrl": null
     },
     {
@@ -13540,7 +13540,7 @@
         "Novak",
         "Sean"
       ],
-      "notes": "Part 1/2, some time, no goodwin",
+      "notes": "Part 1/2, some time, no goodwin, storm",
       "sourceUrl": null
     },
     {
@@ -13553,11 +13553,11 @@
       "title": "Pierce the Vein",
       "airDate": "2025-11-12",
       "inUniverseVerified": true,
-      "crossover": null,
+      "crossover": "Part 1/2",
       "cameos": [
         "Benny, Van Meter"
       ],
-      "notes": null,
+      "notes": "Part 1/2",
       "sourceUrl": null
     },
     {
@@ -13600,12 +13600,12 @@
       "title": "A Man Possessed",
       "airDate": "2026-01-07",
       "inUniverseVerified": true,
-      "crossover": null,
+      "crossover": "Part 2/2",
       "cameos": [
         "Van Meter",
         "Archer"
       ],
-      "notes": null,
+      "notes": "Part 2/2",
       "sourceUrl": null
     },
     {
@@ -13639,7 +13639,7 @@
       "cameos": [
         "Abrams, Bert, Lizzy, Michael, Sean"
       ],
-      "notes": "next few days 11x06, close to 11x08 too",
+      "notes": "TODO next few days 11x06, close to 11x08 too",
       "sourceUrl": null
     },
     {
@@ -13668,7 +13668,9 @@
       "airDate": "2026-01-14",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Mouch"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -13973,7 +13975,9 @@
       "airDate": "2026-04-01",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Atwater"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14018,7 +14022,9 @@
       "airDate": "2026-04-08",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Abrams, Robin"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14110,7 +14116,9 @@
       "airDate": "2026-04-29",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Abrams"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14140,7 +14148,9 @@
       "airDate": "2026-04-29",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Disco Bob, Makayla"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14155,7 +14165,9 @@
       "airDate": "2026-05-06",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Abrams, Nat, Sean, Will"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14215,7 +14227,10 @@
       "airDate": "2026-05-13",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Chloe, Cindy",
+        "Platt"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14241,7 +14256,7 @@
       "season": 12,
       "episode": 1,
       "episodeCode": "S12E01",
-      "title": "Untitled episode",
+      "title": "Shots Fired",
       "airDate": "2026-10-07",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14256,7 +14271,7 @@
       "season": 15,
       "episode": 1,
       "episodeCode": "S15E01",
-      "title": "Untitled episode",
+      "title": "New Blood",
       "airDate": "2026-10-07",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14271,7 +14286,7 @@
       "season": 14,
       "episode": 1,
       "episodeCode": "S14E01",
-      "title": "Untitled episode",
+      "title": "Demolition",
       "airDate": "2026-10-07",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14286,7 +14301,7 @@
       "season": 12,
       "episode": 2,
       "episodeCode": "S12E02",
-      "title": "Untitled episode",
+      "title": "Third Rails",
       "airDate": "2026-10-14",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14301,7 +14316,7 @@
       "season": 15,
       "episode": 2,
       "episodeCode": "S15E02",
-      "title": "Untitled episode",
+      "title": "Rattle the Cage",
       "airDate": "2026-10-14",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14316,7 +14331,7 @@
       "season": 14,
       "episode": 2,
       "episodeCode": "S14E02",
-      "title": "Untitled episode",
+      "title": "Don't Blink",
       "airDate": "2026-10-14",
       "inUniverseVerified": true,
       "crossover": null,
