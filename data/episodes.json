@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-05T13:43:42.351Z",
+  "syncedAt": "2026-10-06T12:49:42.212Z",
   "episodeCount": 833,
   "shows": [
     {
@@ -13403,26 +13403,11 @@
       "cameos": [
         "Makayla"
       ],
-      "notes": "no link",
+      "notes": null,
       "sourceUrl": null
     },
     {
       "order": 776,
-      "series": "Chicago P.D.",
-      "seriesSlug": "pd",
-      "season": 13,
-      "episode": 4,
-      "episodeCode": "S13E04",
-      "title": "Root Cause",
-      "airDate": "2025-10-22",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [],
-      "notes": "fine, t-shirts",
-      "sourceUrl": null
-    },
-    {
-      "order": 777,
       "series": "Chicago Fire",
       "seriesSlug": "fire",
       "season": 14,
@@ -13435,11 +13420,11 @@
       "cameos": [
         "Cindy"
       ],
-      "notes": "Same title as PD 5x18, holloween",
+      "notes": "Same title as PD 5x18",
       "sourceUrl": null
     },
     {
-      "order": 778,
+      "order": 777,
       "series": "Chicago Med",
       "seriesSlug": "med",
       "season": 11,
@@ -13453,28 +13438,11 @@
         "Burgess",
         "Anna, Bert, Kip"
       ],
-      "notes": "halloween, t-shirts",
+      "notes": null,
       "sourceUrl": null
     },
     {
-      "order": 779,
-      "series": "Chicago P.D.",
-      "seriesSlug": "pd",
-      "season": 13,
-      "episode": 5,
-      "episodeCode": "S13E05",
-      "title": "Miami",
-      "airDate": "2025-10-29",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [
-        "Lew"
-      ],
-      "notes": "no link",
-      "sourceUrl": null
-    },
-    {
-      "order": 780,
+      "order": 778,
       "series": "Chicago Med",
       "seriesSlug": "med",
       "season": 11,
@@ -13488,45 +13456,43 @@
         "Novak, Violet",
         "Abrams, Bert, Michael"
       ],
-      "notes": "lendemain",
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 779,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 13,
+      "episode": 4,
+      "episodeCode": "S13E04",
+      "title": "Root Cause",
+      "airDate": "2025-10-22",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 780,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 13,
+      "episode": 5,
+      "episodeCode": "S13E05",
+      "title": "Miami",
+      "airDate": "2025-10-29",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Lew"
+      ],
+      "notes": null,
       "sourceUrl": null
     },
     {
       "order": 781,
-      "series": "Chicago Fire",
-      "seriesSlug": "fire",
-      "season": 14,
-      "episode": 6,
-      "episodeCode": "S14E06",
-      "title": "Broken Things",
-      "airDate": "2025-11-05",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [
-        "Goodwin"
-      ],
-      "notes": "close, preferably not after med 11x06, few weeks fire 14x03",
-      "sourceUrl": null
-    },
-    {
-      "order": 782,
-      "series": "Chicago P.D.",
-      "seriesSlug": "pd",
-      "season": 13,
-      "episode": 6,
-      "episodeCode": "S13E06",
-      "title": "Send Me",
-      "airDate": "2025-11-05",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [
-        "Mouch"
-      ],
-      "notes": "no link",
-      "sourceUrl": null
-    },
-    {
-      "order": 783,
       "series": "Chicago Med",
       "seriesSlug": "med",
       "season": 11,
@@ -13540,11 +13506,77 @@
         "Novak",
         "Sean"
       ],
-      "notes": "Part 1/2, some time, no goodwin, storm",
+      "notes": "Part 1/2",
+      "sourceUrl": null
+    },
+    {
+      "order": 782,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 11,
+      "episode": 8,
+      "episodeCode": "S11E08",
+      "title": "Triple Threat",
+      "airDate": "2026-01-07",
+      "inUniverseVerified": true,
+      "crossover": "Part 2/2",
+      "cameos": [],
+      "notes": "Part 2/2",
+      "sourceUrl": null
+    },
+    {
+      "order": 783,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 14,
+      "episode": 6,
+      "episodeCode": "S14E06",
+      "title": "Broken Things",
+      "airDate": "2025-11-05",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Goodwin"
+      ],
+      "notes": null,
       "sourceUrl": null
     },
     {
       "order": 784,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 13,
+      "episode": 6,
+      "episodeCode": "S13E06",
+      "title": "Send Me",
+      "airDate": "2025-11-05",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Mouch"
+      ],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 785,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 11,
+      "episode": 9,
+      "episodeCode": "S11E09",
+      "title": "Blindsided",
+      "airDate": "2026-01-14",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Abrams, Bert, Lizzy, Michael, Sean"
+      ],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 786,
       "series": "Chicago Fire",
       "seriesSlug": "fire",
       "season": 14,
@@ -13558,36 +13590,6 @@
         "Benny, Van Meter"
       ],
       "notes": "Part 1/2",
-      "sourceUrl": null
-    },
-    {
-      "order": 785,
-      "series": "Chicago P.D.",
-      "seriesSlug": "pd",
-      "season": 13,
-      "episode": 7,
-      "episodeCode": "S13E07",
-      "title": "Impulse Control",
-      "airDate": "2025-11-12",
-      "inUniverseVerified": true,
-      "crossover": "Part 1/2",
-      "cameos": [],
-      "notes": "Part 1/2",
-      "sourceUrl": null
-    },
-    {
-      "order": 786,
-      "series": "Chicago Med",
-      "seriesSlug": "med",
-      "season": 11,
-      "episode": 8,
-      "episodeCode": "S11E08",
-      "title": "Triple Threat",
-      "airDate": "2026-01-07",
-      "inUniverseVerified": true,
-      "crossover": "Part 2/2",
-      "cameos": [],
-      "notes": "Part 2/2, goodwin",
       "sourceUrl": null
     },
     {
@@ -13610,6 +13612,39 @@
     },
     {
       "order": 788,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 14,
+      "episode": 9,
+      "episodeCode": "S14E09",
+      "title": "Crime of Passion",
+      "airDate": "2026-01-14",
+      "inUniverseVerified": true,
+      "crossover": "Part 3/3",
+      "cameos": [
+        "Chloe, Van Meter",
+        "Platt"
+      ],
+      "notes": "Part 3/3",
+      "sourceUrl": null
+    },
+    {
+      "order": 789,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 13,
+      "episode": 7,
+      "episodeCode": "S13E07",
+      "title": "Impulse Control",
+      "airDate": "2025-11-12",
+      "inUniverseVerified": true,
+      "crossover": "Part 1/2",
+      "cameos": [],
+      "notes": "Part 1/2",
+      "sourceUrl": null
+    },
+    {
+      "order": 790,
       "series": "Chicago P.D.",
       "seriesSlug": "pd",
       "season": 13,
@@ -13626,38 +13661,6 @@
       "sourceUrl": null
     },
     {
-      "order": 789,
-      "series": "Chicago Med",
-      "seriesSlug": "med",
-      "season": 11,
-      "episode": 9,
-      "episodeCode": "S11E09",
-      "title": "Blindsided",
-      "airDate": "2026-01-14",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [
-        "Abrams, Bert, Lizzy, Michael, Sean"
-      ],
-      "notes": "TODO next few days 11x06, close to 11x08 too",
-      "sourceUrl": null
-    },
-    {
-      "order": 790,
-      "series": "Chicago Fire",
-      "seriesSlug": "fire",
-      "season": 14,
-      "episode": 9,
-      "episodeCode": "S14E09",
-      "title": "Crime of Passion",
-      "airDate": "2026-01-14",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [],
-      "notes": null,
-      "sourceUrl": null
-    },
-    {
       "order": 791,
       "series": "Chicago P.D.",
       "seriesSlug": "pd",
@@ -13669,7 +13672,8 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Mouch"
+        "Mouch",
+        "Disco Bob"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13686,7 +13690,8 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Novak, Violet"
+        "Novak, Violet",
+        "Bert"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13703,9 +13708,10 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
+        "Cindy, Isaiah, Van Meter",
         "Frost"
       ],
-      "notes": null,
+      "notes": "few weeks since 14x07",
       "sourceUrl": null
     },
     {
