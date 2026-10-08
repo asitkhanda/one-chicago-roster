@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-07T12:43:59.895Z",
+  "syncedAt": "2026-10-08T12:53:15.080Z",
   "episodeCount": 833,
   "shows": [
     {
@@ -13662,6 +13662,42 @@
     },
     {
       "order": 791,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 11,
+      "episode": 10,
+      "episodeCode": "S11E10",
+      "title": "Frost on Fire",
+      "airDate": "2026-01-21",
+      "inUniverseVerified": true,
+      "crossover": "Part 1/2",
+      "cameos": [
+        "Novak, Violet",
+        "Bert"
+      ],
+      "notes": "Part 1/2",
+      "sourceUrl": null
+    },
+    {
+      "order": 792,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 14,
+      "episode": 10,
+      "episodeCode": "S14E10",
+      "title": "Carry a Torch",
+      "airDate": "2026-01-21",
+      "inUniverseVerified": true,
+      "crossover": "Part 2/2",
+      "cameos": [
+        "Cindy, Isaiah, Van Meter",
+        "Frost"
+      ],
+      "notes": "Part 2/2",
+      "sourceUrl": null
+    },
+    {
+      "order": 793,
       "series": "Chicago P.D.",
       "seriesSlug": "pd",
       "season": 13,
@@ -13675,43 +13711,7 @@
         "Mouch",
         "Disco Bob"
       ],
-      "notes": null,
-      "sourceUrl": null
-    },
-    {
-      "order": 792,
-      "series": "Chicago Med",
-      "seriesSlug": "med",
-      "season": 11,
-      "episode": 10,
-      "episodeCode": "S11E10",
-      "title": "Frost on Fire",
-      "airDate": "2026-01-21",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [
-        "Novak, Violet",
-        "Bert"
-      ],
-      "notes": null,
-      "sourceUrl": null
-    },
-    {
-      "order": 793,
-      "series": "Chicago Fire",
-      "seriesSlug": "fire",
-      "season": 14,
-      "episode": 10,
-      "episodeCode": "S14E10",
-      "title": "Carry a Torch",
-      "airDate": "2026-01-21",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [
-        "Cindy, Isaiah, Van Meter",
-        "Frost"
-      ],
-      "notes": "few weeks since 14x07",
+      "notes": "no link",
       "sourceUrl": null
     },
     {
@@ -13726,7 +13726,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
-      "notes": null,
+      "notes": "no link",
       "sourceUrl": null
     },
     {
@@ -13740,7 +13740,9 @@
       "airDate": "2026-01-28",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Abrams"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14267,7 +14269,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
-      "notes": null,
+      "notes": "🔜:📺",
       "sourceUrl": null
     },
     {
@@ -14282,7 +14284,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
-      "notes": null,
+      "notes": "🔜:📺",
       "sourceUrl": null
     },
     {
@@ -14297,7 +14299,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
-      "notes": null,
+      "notes": "🔜:📺",
       "sourceUrl": null
     },
     {
