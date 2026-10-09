@@ -2,22 +2,22 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-08T12:53:15.080Z",
-  "episodeCount": 833,
+  "syncedAt": "2026-10-09T12:39:09.360Z",
+  "episodeCount": 839,
   "shows": [
     {
       "slug": "fire",
       "name": "Chicago Fire",
-      "count": 296,
+      "count": 298,
       "firstOrder": 1,
-      "lastOrder": 832
+      "lastOrder": 838
     },
     {
       "slug": "pd",
       "name": "Chicago P.D.",
-      "count": 266,
+      "count": 268,
       "firstOrder": 34,
-      "lastOrder": 833
+      "lastOrder": 839
     },
     {
       "slug": "svu",
@@ -29,9 +29,9 @@
     {
       "slug": "med",
       "name": "Chicago Med",
-      "count": 221,
+      "count": 223,
       "firstOrder": 125,
-      "lastOrder": 831
+      "lastOrder": 837
     },
     {
       "slug": "justice",
@@ -11990,7 +11990,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "LJ"
+        "LJ, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -12027,7 +12027,7 @@
       "crossover": null,
       "cameos": [
         "Cruz, Violet",
-        "Bert, Michael, Zach"
+        "Bert, Michael, Naomi, Zach"
       ],
       "notes": null,
       "sourceUrl": null
@@ -12096,7 +12096,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Bert, Kai, LJ, Michael, Rosado, Sean"
+        "Bert, Kai, LJ, Michael, Naomi, Rosado, Sean"
       ],
       "notes": null,
       "sourceUrl": null
@@ -12113,9 +12113,9 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Abrams, LJ, Rosado, Zach"
+        "Abrams, LJ, Naomi, Rosado, Zach"
       ],
-      "notes": null,
+      "notes": "First Frost appearance",
       "sourceUrl": null
     },
     {
@@ -12197,7 +12197,9 @@
       "airDate": "2024-10-02",
       "inUniverseVerified": true,
       "crossover": "Part 1/2",
-      "cameos": [],
+      "cameos": [
+        "Naomi"
+      ],
       "notes": "Part 1/2",
       "sourceUrl": null
     },
@@ -12351,7 +12353,8 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Violet"
+        "Violet",
+        "Naomi"
       ],
       "notes": "Thu Oct 31 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
       "sourceUrl": null
@@ -12449,7 +12452,7 @@
       "crossover": null,
       "cameos": [
         "Atwater",
-        "Abrams"
+        "Abrams, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -12519,7 +12522,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Abrams, Lizzy, LJ"
+        "Abrams, Lizzy, LJ, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -12553,7 +12556,7 @@
       "inUniverseVerified": true,
       "crossover": "Part 1/2",
       "cameos": [
-        "Abrams, Reese, Sean"
+        "Abrams, Kip, LJ, Reese, Sean"
       ],
       "notes": "Part 1/2",
       "sourceUrl": null
@@ -12605,7 +12608,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Abrams, Lizzy, LJ"
+        "Abrams, Lizzy, LJ, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -12744,7 +12747,7 @@
       "inUniverseVerified": true,
       "crossover": "Part 2/2",
       "cameos": [
-        "Bert"
+        "Bert, Naomi"
       ],
       "notes": "Part 2/2",
       "sourceUrl": null
@@ -12809,7 +12812,9 @@
       "airDate": "2025-02-26",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Naomi"
+      ],
       "notes": "Deleted scene: A New Take on Hospital Trips (around 8:45)",
       "sourceUrl": null
     },
@@ -12859,7 +12864,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Abrams"
+        "Abrams, Kip, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -12895,7 +12900,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Lizzy, Sean"
+        "Kip, Lizzy, Sean"
       ],
       "notes": null,
       "sourceUrl": null
@@ -12929,7 +12934,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Lizzy"
+        "Lizzy, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13062,7 +13067,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Bert, Lizzy"
+        "Bert, Lizzy, Michael, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13096,7 +13101,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Kip, LJ"
+        "Kip, LJ, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13200,7 +13205,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Anna, Kip, Lizzy, Robin"
+        "Anna, Kip, Lizzy, Kip, Naomi, Robin"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13235,7 +13240,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Abrams"
+        "Abrams, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13270,7 +13275,7 @@
       "inUniverseVerified": true,
       "crossover": "Part 1/2",
       "cameos": [
-        "Nat, Michael, Owen, Will"
+        "Michael, Nat, Owen, Will"
       ],
       "notes": "Part 1/2",
       "sourceUrl": null
@@ -13438,7 +13443,7 @@
         "Burgess",
         "Anna, Bert, Kip"
       ],
-      "notes": null,
+      "notes": "Fri Oct 31 2025 00:00:00 GMT+0000 (Coordinated Universal Time)",
       "sourceUrl": null
     },
     {
@@ -13454,7 +13459,7 @@
       "crossover": null,
       "cameos": [
         "Novak, Violet",
-        "Abrams, Bert, Michael"
+        "Abrams, Bert, Michael, Naomi"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13504,7 +13509,7 @@
       "crossover": "Part 1/2",
       "cameos": [
         "Novak",
-        "Sean"
+        "Naomi, Sean"
       ],
       "notes": "Part 1/2",
       "sourceUrl": null
@@ -13670,12 +13675,12 @@
       "title": "Frost on Fire",
       "airDate": "2026-01-21",
       "inUniverseVerified": true,
-      "crossover": "Part 1/2",
+      "crossover": null,
       "cameos": [
         "Novak, Violet",
-        "Bert"
+        "Bert, Naomi"
       ],
-      "notes": "Part 1/2",
+      "notes": null,
       "sourceUrl": null
     },
     {
@@ -13688,12 +13693,12 @@
       "title": "Carry a Torch",
       "airDate": "2026-01-21",
       "inUniverseVerified": true,
-      "crossover": "Part 2/2",
+      "crossover": null,
       "cameos": [
         "Cindy, Isaiah, Van Meter",
         "Frost"
       ],
-      "notes": "Part 2/2",
+      "notes": null,
       "sourceUrl": null
     },
     {
@@ -13711,7 +13716,7 @@
         "Mouch",
         "Disco Bob"
       ],
-      "notes": "no link",
+      "notes": null,
       "sourceUrl": null
     },
     {
@@ -13726,11 +13731,29 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
-      "notes": "no link",
+      "notes": null,
       "sourceUrl": null
     },
     {
       "order": 795,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 14,
+      "episode": 11,
+      "episodeCode": "S14E11",
+      "title": "Frostbite Blue",
+      "airDate": "2026-01-28",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Benny, Carver, Cindy, Van Meter",
+        "Frost"
+      ],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 796,
       "series": "Chicago Med",
       "seriesSlug": "med",
       "season": 11,
@@ -13741,24 +13764,10 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Abrams"
+        "Mouch",
+        "Abrams, Naomi"
       ],
-      "notes": null,
-      "sourceUrl": null
-    },
-    {
-      "order": 796,
-      "series": "Chicago Fire",
-      "seriesSlug": "fire",
-      "season": 14,
-      "episode": 11,
-      "episodeCode": "S14E11",
-      "title": "Frostbite Blue",
-      "airDate": "2026-01-28",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [],
-      "notes": null,
+      "notes": "some time",
       "sourceUrl": null
     },
     {
@@ -14269,7 +14278,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
-      "notes": "🔜:📺",
+      "notes": null,
       "sourceUrl": null
     },
     {
@@ -14284,7 +14293,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
-      "notes": "🔜:📺",
+      "notes": null,
       "sourceUrl": null
     },
     {
@@ -14299,7 +14308,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
-      "notes": "🔜:📺",
+      "notes": null,
       "sourceUrl": null
     },
     {
@@ -14341,6 +14350,96 @@
       "episodeCode": "S14E02",
       "title": "Don't Blink",
       "airDate": "2026-10-14",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 834,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 12,
+      "episode": 3,
+      "episodeCode": "S12E03",
+      "title": "They Call Me Ms. Goodwin",
+      "airDate": "2026-10-21",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 835,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 15,
+      "episode": 3,
+      "episodeCode": "S15E03",
+      "title": "Take the Hit",
+      "airDate": "2026-10-21",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 836,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 14,
+      "episode": 3,
+      "episodeCode": "S14E03",
+      "title": "Under the Surface",
+      "airDate": "2026-10-21",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 837,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 12,
+      "episode": 4,
+      "episodeCode": "S12E04",
+      "title": "Tomorrow, Tomorrow, and Tomorrow",
+      "airDate": "2026-10-28",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 838,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 15,
+      "episode": 4,
+      "episodeCode": "S15E04",
+      "title": "A Perfect Arson",
+      "airDate": "2026-10-28",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 839,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 14,
+      "episode": 4,
+      "episodeCode": "S14E04",
+      "title": "My Eye, My Call",
+      "airDate": "2026-10-28",
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
