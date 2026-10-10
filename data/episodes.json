@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-09T12:39:09.360Z",
+  "syncedAt": "2026-10-10T11:58:48.392Z",
   "episodeCount": 839,
   "shows": [
     {
@@ -13736,6 +13736,59 @@
     },
     {
       "order": 795,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 11,
+      "episode": 11,
+      "episodeCode": "S11E11",
+      "title": "Our So-Called Lives",
+      "airDate": "2026-01-28",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Mouch",
+        "Abrams, Naomi"
+      ],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 796,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 13,
+      "episode": 11,
+      "episodeCode": "S13E11",
+      "title": "On the Way",
+      "airDate": "2026-01-28",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Jordan, Vinessa"
+      ],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 797,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 11,
+      "episode": 12,
+      "episodeCode": "S11E12",
+      "title": "Spill Your Guts",
+      "airDate": "2026-02-04",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Novak",
+        "Naomi"
+      ],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 798,
       "series": "Chicago Fire",
       "seriesSlug": "fire",
       "season": 14,
@@ -13753,56 +13806,6 @@
       "sourceUrl": null
     },
     {
-      "order": 796,
-      "series": "Chicago Med",
-      "seriesSlug": "med",
-      "season": 11,
-      "episode": 11,
-      "episodeCode": "S11E11",
-      "title": "Our So-Called Lives",
-      "airDate": "2026-01-28",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [
-        "Mouch",
-        "Abrams, Naomi"
-      ],
-      "notes": "some time",
-      "sourceUrl": null
-    },
-    {
-      "order": 797,
-      "series": "Chicago P.D.",
-      "seriesSlug": "pd",
-      "season": 13,
-      "episode": 11,
-      "episodeCode": "S13E11",
-      "title": "On the Way",
-      "airDate": "2026-01-28",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [],
-      "notes": null,
-      "sourceUrl": null
-    },
-    {
-      "order": 798,
-      "series": "Chicago Med",
-      "seriesSlug": "med",
-      "season": 11,
-      "episode": 12,
-      "episodeCode": "S11E12",
-      "title": "Spill Your Guts",
-      "airDate": "2026-02-04",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [
-        "Novak"
-      ],
-      "notes": null,
-      "sourceUrl": null
-    },
-    {
       "order": 799,
       "series": "Chicago Fire",
       "seriesSlug": "fire",
@@ -13814,7 +13817,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Kylie",
+        "Cindy, Kylie",
         "Frost"
       ],
       "notes": null,
