@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-10T11:58:48.392Z",
+  "syncedAt": "2026-10-11T12:10:52.516Z",
   "episodeCount": 839,
   "shows": [
     {
@@ -5099,7 +5099,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Hope, Lily, Louie, Patterson",
+        "Hazmat Zach, Hope, Lily, Louie, Patterson",
         "Antonio, Burgess, Platt"
       ],
       "notes": "2018-02, same night, right b4 valentine's",
@@ -5117,7 +5117,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Benny, Connie, Grissom, Lily, Louie, Nick Porter",
+        "Benny, Connie, Grissom, Hazmat Zach, Lily, Louie, Nick Porter",
         "Antonio, Platt"
       ],
       "notes": "same night",
@@ -5303,7 +5303,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Cindy, Connie, Grissom",
+        "Cindy, Connie, Grissom, Hazmat Zach",
         "Platt"
       ],
       "notes": "env. 1 week, no snow, orange trees",
@@ -5321,7 +5321,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Hope, Lily",
+        "Hazmat Zach, Hope, Lily",
         "Jay",
         "Will"
       ],
@@ -5375,7 +5375,7 @@
       "inUniverseVerified": true,
       "crossover": "Crossover 2/2",
       "cameos": [
-        "Leon",
+        "Hazmat Zach, Leon",
         "Antonio, Burgess, Jay, Ruzek, Upton, Voight"
       ],
       "notes": "Crossover 2/2, comm 2 days after",
@@ -13817,7 +13817,7 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Cindy, Kylie",
+        "Cindy, Cranston, Kylie",
         "Frost"
       ],
       "notes": null,
@@ -13850,10 +13850,11 @@
       "inUniverseVerified": true,
       "crossover": "Crossover 1/3",
       "cameos": [
+        "Cranston, Hazmat Zach",
         "Jay, Upton, Voight",
-        "Archer, Asher, Goodwin, Lenox"
+        "Archer, Asher, Frost, Goodwin, Lenox"
       ],
-      "notes": "Crossover 1/3, similar title to PD 6x22",
+      "notes": "Crossover 1/3, similar title to PD 6x22, 2026-03-04",
       "sourceUrl": null
     },
     {
@@ -13868,9 +13869,9 @@
       "inUniverseVerified": true,
       "crossover": "Crossover 2/3",
       "cameos": [
-        "Capp, Cruz, Herrmann, Kidd, Mouch, Novak, Pascal, Severide, Vasquez, Violet",
+        "Capp, Chloe, Cruz, Heidi, Herrmann, Javi, Kidd, Mouch, Novak, Otis, Pascal, Severide, Tony, Vasquez, Violet, Will",
         "Atwater, Burgess, Imani, Jay, Platt, Torres, Upton, Voight",
-        "Abrams"
+        "Abrams, Naomi"
       ],
       "notes": "Crossover 2/3",
       "sourceUrl": null
@@ -13887,9 +13888,9 @@
       "inUniverseVerified": true,
       "crossover": "Crossover 3/3",
       "cameos": [
-        "Capp, Cruz, Herrmann, Kidd, Mouch, Novak, Pascal, Severide, Vasquez, Violet",
+        "Capp, Cranston, Cruz, Heidi, Herrmann, Kidd, Mouch, Novak, Pascal, Severide, Vasquez, Violet, Will",
         "Jay, Upton",
-        "Archer, Asher, Frost, Goodwin, Lenox, Ripley"
+        "Abrams, Archer, Asher, Charles, Frost, Goodwin, Lenox, Ripley"
       ],
       "notes": "Crossover 3/3",
       "sourceUrl": null
@@ -13904,9 +13905,11 @@
       "title": "Twist & Shout",
       "airDate": "2026-03-11",
       "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [],
-      "notes": null,
+      "crossover": "Crossover",
+      "cameos": [
+        "Naomi"
+      ],
+      "notes": "2026-03-17, no link to crossover",
       "sourceUrl": null
     },
     {
@@ -13935,7 +13938,9 @@
       "airDate": "2026-03-11",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Disco Bob, Makayla"
+      ],
       "notes": null,
       "sourceUrl": null
     },
