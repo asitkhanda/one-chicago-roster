@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-11T12:10:52.516Z",
+  "syncedAt": "2026-10-12T14:32:25.205Z",
   "episodeCount": 839,
   "shows": [
     {
@@ -13869,7 +13869,7 @@
       "inUniverseVerified": true,
       "crossover": "Crossover 2/3",
       "cameos": [
-        "Capp, Chloe, Cruz, Heidi, Herrmann, Javi, Kidd, Mouch, Novak, Otis, Pascal, Severide, Tony, Vasquez, Violet, Will",
+        "Ballard, Capp, Chloe, Cruz, Heidi, Herrmann, Javi, Kidd, Mouch, Novak, Otis, Pascal, Severide, Tony, Vasquez, Violet, Will",
         "Atwater, Burgess, Imani, Jay, Platt, Torres, Upton, Voight",
         "Abrams, Naomi"
       ],
@@ -13890,7 +13890,7 @@
       "cameos": [
         "Capp, Cranston, Cruz, Heidi, Herrmann, Kidd, Mouch, Novak, Pascal, Severide, Vasquez, Violet, Will",
         "Jay, Upton",
-        "Abrams, Archer, Asher, Charles, Frost, Goodwin, Lenox, Ripley"
+        "Abrams, Archer, Asher, Charles, Doris, Frost, Goodwin, Lenox, Ripley"
       ],
       "notes": "Crossover 3/3",
       "sourceUrl": null
@@ -13937,11 +13937,11 @@
       "title": "Meant to Be",
       "airDate": "2026-03-11",
       "inUniverseVerified": true,
-      "crossover": null,
+      "crossover": "Crossover",
       "cameos": [
         "Disco Bob, Makayla"
       ],
-      "notes": null,
+      "notes": "no link to crossover",
       "sourceUrl": null
     },
     {
