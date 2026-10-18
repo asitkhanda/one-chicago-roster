@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-17T10:12:47.733Z",
+  "syncedAt": "2026-10-18T10:28:12.484Z",
   "episodeCount": 839,
   "shows": [
     {
@@ -13923,8 +13923,11 @@
       "airDate": "2026-03-11",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
-      "notes": null,
+      "cameos": [
+        "Cranston",
+        "Platt"
+      ],
+      "notes": "tony, capp, cruz back",
       "sourceUrl": null
     },
     {
@@ -14276,27 +14279,29 @@
     },
     {
       "order": 828,
-      "series": "Chicago Med",
-      "seriesSlug": "med",
-      "season": 12,
-      "episode": 1,
-      "episodeCode": "S12E01",
-      "title": "Shots Fired",
-      "airDate": "2026-10-07",
-      "inUniverseVerified": true,
-      "crossover": null,
-      "cameos": [],
-      "notes": null,
-      "sourceUrl": null
-    },
-    {
-      "order": 829,
       "series": "Chicago Fire",
       "seriesSlug": "fire",
       "season": 15,
       "episode": 1,
       "episodeCode": "S15E01",
       "title": "New Blood",
+      "airDate": "2026-10-07",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [
+        "Archer"
+      ],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 829,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 12,
+      "episode": 1,
+      "episodeCode": "S12E01",
+      "title": "Shots Fired",
       "airDate": "2026-10-07",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14345,7 +14350,9 @@
       "airDate": "2026-10-14",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Charles"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14416,7 +14423,7 @@
       "season": 12,
       "episode": 4,
       "episodeCode": "S12E04",
-      "title": "Tomorrow, Tomorrow, and Tomorrow",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
       "airDate": "2026-10-28",
       "inUniverseVerified": true,
       "crossover": null,
