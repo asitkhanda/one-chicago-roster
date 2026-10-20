@@ -2,22 +2,22 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-19T12:15:47.452Z",
-  "episodeCount": 839,
+  "syncedAt": "2026-10-20T10:58:33.540Z",
+  "episodeCount": 845,
   "shows": [
     {
       "slug": "fire",
       "name": "Chicago Fire",
-      "count": 298,
+      "count": 300,
       "firstOrder": 1,
-      "lastOrder": 838
+      "lastOrder": 844
     },
     {
       "slug": "pd",
       "name": "Chicago P.D.",
-      "count": 268,
+      "count": 270,
       "firstOrder": 34,
-      "lastOrder": 839
+      "lastOrder": 845
     },
     {
       "slug": "svu",
@@ -29,9 +29,9 @@
     {
       "slug": "med",
       "name": "Chicago Med",
-      "count": 223,
+      "count": 225,
       "firstOrder": 125,
-      "lastOrder": 837
+      "lastOrder": 843
     },
     {
       "slug": "justice",
@@ -160,10 +160,11 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
+        "Cindy, Connie, Leon, Viv",
         "Antonio",
         "Amanda (same actress as Leah)"
       ],
-      "notes": null,
+      "notes": "2012-11-22 (Thanksgiving)",
       "sourceUrl": null
     },
     {
@@ -401,8 +402,8 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Cindy",
-        "Antonio, Jules"
+        "Benny, Cindy",
+        "Antonio"
       ],
       "notes": null,
       "sourceUrl": null
@@ -435,7 +436,9 @@
       "airDate": "2013-05-22",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Cindy"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -828,7 +831,7 @@
       "cameos": [
         "Erin, Voight\n(usually cut from episode)"
       ],
-      "notes": "Crossover 1/2, sometimes labeled 15x14, \n2014-02-07, not relevant to plot except for cameos in (usually cut) last scene",
+      "notes": "Crossover 1/2, sometimes labeled 15x14, 2014-02-07, not relevant to plot except for cameos in (usually cut) last scene",
       "sourceUrl": null
     },
     {
@@ -2282,7 +2285,9 @@
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [
-        "Burgess, Roman"
+        "Jenna (same actress as Viv)",
+        "Burgess, Roman",
+        "Helen"
       ],
       "notes": null,
       "sourceUrl": null
@@ -13958,8 +13963,10 @@
       "airDate": "2026-03-18",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
-      "notes": null,
+      "cameos": [
+        "Abrams, Anna, Naomi"
+      ],
+      "notes": "in the past week",
       "sourceUrl": null
     },
     {
@@ -14455,6 +14462,96 @@
       "episodeCode": "S14E04",
       "title": "My Eye, My Call",
       "airDate": "2026-10-28",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 840,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 12,
+      "episode": 5,
+      "episodeCode": "S12E05",
+      "title": "Lessons in Chemistry",
+      "airDate": "2026-11-04",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 841,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 15,
+      "episode": 5,
+      "episodeCode": "S15E05",
+      "title": "Three Hundred",
+      "airDate": "2026-11-04",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 842,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 14,
+      "episode": 5,
+      "episodeCode": "S14E05",
+      "title": "The Thin Grey Line",
+      "airDate": "2026-11-04",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 843,
+      "series": "Chicago Med",
+      "seriesSlug": "med",
+      "season": 12,
+      "episode": 6,
+      "episodeCode": "S12E06",
+      "title": "Baptism by Fire",
+      "airDate": "2026-11-11",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 844,
+      "series": "Chicago Fire",
+      "seriesSlug": "fire",
+      "season": 15,
+      "episode": 6,
+      "episodeCode": "S15E06",
+      "title": "[Untitled episode]",
+      "airDate": "2026-11-11",
+      "inUniverseVerified": true,
+      "crossover": null,
+      "cameos": [],
+      "notes": null,
+      "sourceUrl": null
+    },
+    {
+      "order": 845,
+      "series": "Chicago P.D.",
+      "seriesSlug": "pd",
+      "season": 14,
+      "episode": 6,
+      "episodeCode": "S14E06",
+      "title": "Dark Imaginings",
+      "airDate": "2026-11-11",
       "inUniverseVerified": true,
       "crossover": null,
       "cameos": [],
