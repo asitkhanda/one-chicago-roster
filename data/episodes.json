@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-24T10:21:46.578Z",
+  "syncedAt": "2026-10-25T10:49:18.328Z",
   "episodeCount": 845,
   "shows": [
     {
@@ -14404,7 +14404,9 @@
       "airDate": "2026-10-21",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
+      "cameos": [
+        "Doris"
+      ],
       "notes": null,
       "sourceUrl": null
     },
@@ -14475,7 +14477,7 @@
       "season": 12,
       "episode": 5,
       "episodeCode": "S12E05",
-      "title": "Lessons in Chemistry",
+      "title": "Baptism by Fire",
       "airDate": "2026-11-04",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14505,7 +14507,7 @@
       "season": 14,
       "episode": 5,
       "episodeCode": "S14E05",
-      "title": "The Thin Grey Line",
+      "title": "Dark Imaginings",
       "airDate": "2026-11-04",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14520,7 +14522,7 @@
       "season": 12,
       "episode": 6,
       "episodeCode": "S12E06",
-      "title": "Baptism by Fire",
+      "title": "[Untitled episode]",
       "airDate": "2026-11-11",
       "inUniverseVerified": true,
       "crossover": null,
@@ -14550,7 +14552,7 @@
       "season": 14,
       "episode": 6,
       "episodeCode": "S14E06",
-      "title": "Dark Imaginings",
+      "title": "[Untitled episode]",
       "airDate": "2026-11-11",
       "inUniverseVerified": true,
       "crossover": null,
