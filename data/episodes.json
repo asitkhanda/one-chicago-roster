@@ -2,7 +2,7 @@
   "sourceSheetId": "1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog",
   "sourceSheetUrl": "https://docs.google.com/spreadsheets/d/1d6nnW_I3qrWUujOXi1Db2717wUKX86J4wRZdGOYPDog/edit",
   "sourceAttribution": "Game Over Gallery / petitcartonvert",
-  "syncedAt": "2026-10-26T12:19:55.682Z",
+  "syncedAt": "2026-10-27T11:39:56.866Z",
   "episodeCount": 845,
   "shows": [
     {
@@ -13949,7 +13949,7 @@
       "cameos": [
         "Disco Bob, Makayla"
       ],
-      "notes": "no link to crossover",
+      "notes": "no link to crossover, takes ~3 days",
       "sourceUrl": null
     },
     {
@@ -13980,8 +13980,10 @@
       "airDate": "2026-03-18",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
-      "notes": null,
+      "cameos": [
+        "Heidi"
+      ],
+      "notes": "next shift",
       "sourceUrl": null
     },
     {
@@ -13995,8 +13997,10 @@
       "airDate": "2026-03-18",
       "inUniverseVerified": true,
       "crossover": null,
-      "cameos": [],
-      "notes": null,
+      "cameos": [
+        "Makayla"
+      ],
+      "notes": "no link",
       "sourceUrl": null
     },
     {
